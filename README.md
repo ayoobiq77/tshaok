@@ -10,7 +10,7 @@
 
 • افتح ترمنال وحط 
 
-git clone https://github.com/tomejone99/TshAkEapi
+git clone https://github.com/moodlIMyIl/TshAkEapi
 
 • انتر وراه حط •
 
@@ -28,7 +28,7 @@ chmod +x install.sh
 
 • او نصب بكود واحد 
 
-git clone https://github.com/tomejone99/TshAkEapi && cd TshAkEapi && chmod +x install.sh && ./install.sh
+git clone https://github.com/moodlIMyIl/TshAkEapi && cd TshAkEapi && chmod +x install.sh && ./install.sh
 
 • وراح يطلب منك اثناء التنصيب تحط y او n دائما اختار y •
 
@@ -49,13 +49,11 @@ token="هنا التوكن"
 • تخلي ايدي البوت بسطر 1
 
 • وايدي المطورين بسطر 3
-
 • وتحفظ الملف
 • تفتح ملف TSHAKE.lua
-•سطر 3689 تغير كليشة الاذاعه الى كلمه سريه خاصه بيك
-•سطر 7392 تغير معرف المطور الى معرفك وتحفظ الملف
-وتفتح ترمنال وتحط
-
+• سطر3689 تغير كليشة الاذاعه الى كلمه سريه خاصه بيك
+• سطر 7392 تغير معرف المطور الى معرفك وتحفظ الملف 
+• تفتح ترمنال وتحط
 rm -fr ../.telegram-cli
 
 redis-server
