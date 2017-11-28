@@ -4702,7 +4702,7 @@ else
 end
 	end 
 	-----------------------------------------------------------------------------------------------
-          local text = msg.content_.text_:gsub('سيزر','bc')
+          local text = msg.content_.text_:gsub('اذاعه','bc')
 	if text:match("^bc (.*)$") and is_admin(msg.sender_user_id_, msg.chat_id_) then
     local gps = database:scard("bot:groups") or 0
     local gpss = database:smembers("bot:groups") or 0
